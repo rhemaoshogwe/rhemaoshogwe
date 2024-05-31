@@ -72,3 +72,27 @@ ul li span {
     color: #000;
     text-align: center;
 }
+
+@media screen and (min-width: 360px) {
+    .toDoApp {
+        width: 90%;
+    }
+    button{
+        margin-left: -10px;
+        border: none;
+        padding: 8px 25px;
+        background: #ff5945;
+        color: #ddd;
+        font-size: 10px;
+        cursor: pointer;
+        border-radius: 25px;
+    }
+    input{
+        position: relative;
+        right: 20px;
+    }
+    ul li  {
+        
+        right: 20px;
+    }
+}
